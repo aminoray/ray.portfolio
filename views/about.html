@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ray official</title>
+
+        <!-- style -->
+        <link href="/Users/rei/Myprofile/styles/main_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/main_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/main_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link href="/Users/rei/Myprofile/styles/about_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/about_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/about_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link rel="canonical" href="https://lopan.jp/css-animation">
+       
+        <!-- link -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+
+        <!-- font -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- script -->
+        <script src="{{ asset('/js/stripe.js') }}"></script>
+
+    </head>
+
+    <body>
+        <div id="mask" class="mask hidden">
+        </div>     
+        <header>
+            <div class="header-left">
+                <img class="logo-black" src="/Users/rei/Myprofile/pablic/img/ray-logo-black.png" alt="ray-logo">
+                <img class="logo-white" src="/Users/rei/Myprofile/pablic/img/ray-logo.png" alt="ray-logo">
+            </div>
+            <div class="header-right">
+                <div class="menu" onclick="openMenu('header-menu')">
+                    <img src="/Users/rei/Myprofile/pablic/img/menu-icon.png" alt="menu icon">
+                </div>
+                <ul id="header-menu" class="header-menu hidden">
+                    <li class="close-btn">
+                        <a href="">
+                            <img src="/Users/rei/Myprofile/pablic/img/close-icon.png" alt="close icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/works.html">WORKS</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/service.html">SERVICE</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="first-section">
+                    <div class="section-title">
+                        <h2>ABOUT</h2>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="second-section">
+                    <div class="content">
+                        <div class="my-photo">
+                            <img src="/Users/rei/Myprofile/pablic/img/myphoto-top.png" alt="ph">
+                        </div>
+                        <div class="discription">
+                            <img src="/Users/rei/Myprofile/pablic/img/ray-logo.png" alt="ray-logo">
+                            <h3>Rei Takeda</h3>
+                            <h4>Engineer ／ Designer</h4>
+                            <div class="sns-icons">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-content">
+                        <div class="text">
+                            <p>
+                                新潟県妙高市出身。日本有数の豪雪地帯で生まれ育ち、1歳の時からアルペンスキーを始める。
+                                大学在学中に日本国内のみならず、東南アジアを中心とする海外にも旅行をする中で、地元・
+                                妙高の自然の素晴らしさを再確認する。その頃から「自分を育ててくれた自然を守りたい」
+                                と思うようになり、自然保護活動にも興味を持つようになった。 
+                                <br>
+                                また、「世界中どこでも働ける仕事」を追求する中でwebエンジニア、
+                                プログラマーという職業に出会った。幼い頃からものづくりが好きで、
+                                自分が作るものに対しては妥協したくない性格で、自分自身が納得いくまで
+                                何時間でも作品制作に没頭する少年だったと思う。それが私の原点であり、
+                                今の仕事につながっていると思う。しかし、web制作、アプリケーション開発
+                                においては、利用するユーザーが存在して初めて、そのサービスに価値が生まれ
+                                る。その点は、作品制作とは異なり、利用するユーザー目線でデザインも考え
+                                ていかなければならない。そのためweb制作を始めてからは「誰が使うか、
+                                誰のためのサービスか」を自身に問いながら制作活動に取り組んでいる。
+                            </p>
+                        </div>
+                        <div class="signature">
+                            <img src="/Users/rei/Myprofile/pablic/img/signatuer.JPG" alt="sgin">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="third-section">
+                    <div class="title">
+                        <h2>SKILS</h2>
+                    </div>
+                    <div class="skils">
+                        <h3>Language</h3>
+                        <ul>
+                            <li>HTML / CSS</li>
+                            <li>JavaScript</li>
+                            <li>python</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+
+                    <div class="skils">
+                        <h3>Framework</h3>
+                        <ul>
+                            <li>Laravel</li>
+                            <li>lumen</li>
+                            <li>Ruby on Rails</li>
+                            <li>Ru・WordPressby</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+
+                    <div class="skils">
+                        <h3>Software</h3>
+                        <ul>
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Final Cut Pro</li>
+                            <li>Ruby</li>
+                            <li>AWS</li>
+                            <li>filepond</li>
+                            <li>GitHub</li>
+                            <li>stripe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="foot-first-content">
+                <div class="footer-left">
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">WORKS</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-right">
+                    <a href="">
+                        <img src="" alt="ray logo">
+                    </a>
+                    <div class="sns-icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-second-content">
+                <p>Copyright©︎ 2020 RAY All Rights Reserved.</p>
+            </div>
+        </footer> 
+    </body>
+
+    <script>
+
+        function openMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.remove("hidden");
+                mask.classList.remove("hidden");
+                
+            }
+
+        function closeMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.add("hidden");
+                mask.classList.add("hidden");
+            }
+        
+    </script>
+</html>

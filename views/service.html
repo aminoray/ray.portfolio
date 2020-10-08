@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ray official</title>
+
+        <!-- style -->
+        <link href="/Users/rei/Myprofile/styles/main_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/main_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/main_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link href="/Users/rei/Myprofile/styles/service_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/service_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/service_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link rel="canonical" href="https://lopan.jp/css-animation">
+       
+        <!-- link -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+
+        <!-- font -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- script -->
+        <script src="{{ asset('/js/stripe.js') }}"></script>
+
+    </head>
+
+    <body>
+        <div id="mask" class="mask hidden">
+        </div>     
+        <header>
+            <div class="header-left">
+                <img class="logo-black" src="/Users/rei/Myprofile/pablic/img/ray-logo-black.png" alt="ray-logo">
+                <img class="logo-white" src="/Users/rei/Myprofile/pablic/img/ray-logo.png" alt="ray-logo">
+            </div>
+            <div class="header-right">
+                <div class="menu" onclick="openMenu('header-menu')">
+                    <img src="/Users/rei/Myprofile/pablic/img/menu-icon.png" alt="menu icon">
+                </div>
+                <ul id="header-menu" class="header-menu hidden">
+                    <li class="close-btn">
+                        <a href="">
+                            <img src="/Users/rei/Myprofile/pablic/img/close-icon.png" alt="close icon">
+                        </a>
+                    </li>
+                    <li>
+                      <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/works.html">WORKS</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/service.html">SERVICE</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/contact.html">CONTACT</a>
+                  </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+          <div class="container">
+            <div class="first-section">
+              <div class="section-title">
+                  <h2>SERVICE</h2>
+                  <hr>
+              </div>
+            </div>
+
+           
+            <div class="section development">
+              <div class="item-title">
+                <h2>DEVELOPMENT</h2>
+                <hr>
+                <h3>システム開発</h3>
+              </div>
+  
+              <div class="item">
+                <p>
+                  法人・個人向けホームページの設計、
+                  制作（デザイン・コーディング）、運用までサポート可能です。
+                  また、検索アルゴリズムに最適化した設計を行うことで、
+                  ホームページを検索上位に表示させることもできます。
+                  制作に入る前にお客様からのご要望やサイトのイメージ、
+                  目的など細かくヒアリングすることで、
+                  お客様お一人お一人のニーズに合わせたサイト制作します。
+                </p>
+
+                <div class="list" id="list-1">
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        フロントエンド開発
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fas fa-database"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        バックエンド開発
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        wordpress設計
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              
+              <div id="readmore">
+                <div class="readmore">
+                    <a href="">
+                        <p>CONTACT</p>
+                    </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="section design">
+              <div class="item-title">
+                <h2>DESIGN</h2>
+                <hr>
+                <h3>デザイン</h3>
+              </div>
+  
+              <div class="item">
+                <p>
+                  ブランドロゴ制作、Webデザイン、
+                  YouTubeサムネイル制作など幅広くデザインの
+                  お仕事を承っております。 「誰に届けたいか」
+                  「誰に提供したいか」というサービスやデザインを
+                  使用する人のことを第一に考え、お客様、サービス提供者様、
+                  私自身の全員が納得できる最高品質のデザインをご提供いたします。
+                </p>
+
+                <div class="list" id="list-2">
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="far fa-object-group"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        webデザイン
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        チラシ・フライヤー
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        ブランドロゴ
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+                
+              </div>
+              <div id="readmore">
+                <div class="readmore">
+                    <a href="">
+                        <p>CONTACT</p>
+                    </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="section movie">
+              <div class="item-title">
+                <h2>PROMOTION MOVIE</h2>
+                <hr>
+                <h3>映像制作</h3>
+              </div>
+
+              <div class="item">
+                <p>
+                  プロモーション動画の企画、撮影、編集、構成、
+                  配信まで一貫してサポートいたします。プロモーションビデオでは、
+                  思わず動画に見入ってしまうような動画制作を心がけています。 
+                  動画を見てくださったお客様が「その場所を訪れたい」
+                  「試してみたい」と思っていただけるような動画を作ることで、
+                  サービス提供者様のお力になれたらと思います。
+                </p>
+
+                <div class="list" id="list-3">
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fas fa-video"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        映像撮影
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fas fa-film"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        映像編集
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="box">
+                    <div class="box-icon">
+                      <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="box-discription">
+                      <p>
+                        ドローンによる空撮
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+
+              <div id="readmore">
+                <div class="readmore">
+                    <a href="">
+                        <p>CONTACT</p>
+                    </a>
+                </div>
+              </div>
+  
+  
+            </div>
+          </div>
+
+        </main>
+
+        <footer>
+            <div class="foot-first-content">
+                <div class="footer-left">
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">WORKS</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-right">
+                    <a href="">
+                        <img src="" alt="ray logo">
+                    </a>
+                    <div class="sns-icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-second-content">
+                <p>Copyright©︎ 2020 RAY All Rights Reserved.</p>
+            </div>
+        </footer> 
+    </body>
+
+    <script>
+
+        function openMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.remove("hidden");
+                mask.classList.remove("hidden");
+                
+            }
+
+        function closeMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.add("hidden");
+                mask.classList.add("hidden");
+            }
+        
+    </script>
+</html>

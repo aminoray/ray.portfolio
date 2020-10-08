@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+}
+
+.first-section {
+    width: 100%;
+    height: 245px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%),url("/Users/rei/Myprofile/pablic/img/IMG_2869.jpg");
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */              
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:cover; 
+}
+
+.section {
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px 0px 30px 0px;
+    width: 100%;
+    height: 500px;
+}
+
+.development {
+    background-image: url("/Users/rei/Myprofile/pablic/img/development.png");
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */              
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:cover; 
+}
+
+
+.design {
+    background-image: url("/Users/rei/Myprofile/pablic/img/design.png");
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */              
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:cover; 
+}
+
+
+.movie {
+    background-image: url("/Users/rei/Myprofile/pablic/img/movi-background.png");
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */              
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:cover; 
+}
+
+.item-title h2 {
+    font-size: 20px;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: lighter;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.item-title hr {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.item-title h3 {
+    font-size: 12px;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+#readmore {
+    padding-top: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.item p {
+    font-size: 12px;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: lighter;
+}
+
+.list {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    text-align: center;
+}
+
+.box i {
+    padding-top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.box-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#list-1 .box-icon {
+    background-color: #5690B9;
+}
+
+#list-2 .box-icon {
+    background-color: #7da3a1;
+}
+
+#list-3 .box-icon {
+    background-color: #ffccbb;
+}
+
+.list p {
+    font-weight: normal;
+    font-size: 10px;
+}

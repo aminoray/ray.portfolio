@@ -1,0 +1,252 @@
+/*   共通スタイリング
+======================   */
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    text-decoration:none
+}
+
+h1, h2, h3, h4, h5 {
+    color: #fff;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: lighter;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#mask {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: #000;
+    opacity: 0.7;
+    position: fixed;
+  }
+
+/*   header style
+=====================   */
+
+header {
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.header-left {
+    width: 71px;
+    height: 34px;
+    margin: 4px auto;
+    padding-top: 12px;
+}
+
+.header-left img {
+    width: 71px;
+}
+
+.header-left .logo-black {
+    display: none;
+}
+
+.header-right {
+    padding-top: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+}
+
+.header-right img {
+    width: 28px;
+    padding-right: 16px;;
+}
+
+.header-menu {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background: #f5f5f5;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    transition: .7s;
+}
+
+.header-menu li {
+    padding: 0;
+    height: 120px;
+    list-style: none;
+    width: 100%;
+    background-color: #030E27;
+}
+ 
+.header-menu a {
+    color: #fff;
+    padding: 40px;
+}
+
+.close-btn img {
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+/*   Read more style 
+-------------------- */
+.readmore p {
+    font-size: 18px;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: lighter;
+    margin: 2px auto;
+}
+
+.readmore {
+    width: 180px;
+    height: 32px;
+    text-align: center;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background: -webkit-linear-gradient(180deg,                           #000000,
+    #000,
+    #868686,
+    #3d3d3d);
+    background: -webkit-linear-gradient(right,                             #000000,
+    #ffffff,
+    #868686,
+    #3d3d3d);
+    background: linear-gradient(270deg,
+    #fff,
+    #fff,
+    #ffffff00,
+    #ffffff00);
+    background-position: 1% 50%;
+    background-size: 300% 300%;
+    border: none;
+    border: solid 1px #fff;
+}
+
+/* マウスオーバー時 */
+.readmore:hover {
+    background-position: 99% 50%;
+    color: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.readmore p:hover {
+    color: #000;
+}
+
+.section-title {
+    margin: 0 auto;
+    position: relative;
+    top: 156px;
+}
+
+.section-title h2{
+    margin: 0%;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Hiragino Kaku Gothic ProN;
+}
+
+.section-title hr {
+    padding: 0%;
+    margin: 0 auto;
+    width: 52px;
+    background-color: #5690B9;
+}
+
+
+/* footer style  
+=================    */
+
+footer {
+    background: #656565;
+    margin: 0;
+}
+
+.foot-first-content {
+    display: flex;
+    text-align: center;
+    padding: 24px 16px;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+footer ul {
+    margin: 0;
+    list-style: none;
+}
+
+footer li {
+    padding-top: 8px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: ヒラギノ角ゴシック;
+}
+
+
+.footer-right {
+    text-align: center;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.footer-right img {
+    width: 56px;
+}
+
+.foot-first-content i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.foot-second-content {
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+
+.foot-second-content p {
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: ヒラギノ角ゴシック;
+    color: #fff;
+    margin: 0;
+}

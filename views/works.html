@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ray official</title>
+
+        <!-- style -->
+        <link href="/Users/rei/Myprofile/styles/main_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/main_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/main_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link href="/Users/rei/Myprofile/styles/works_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/works_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/works_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link rel="canonical" href="https://lopan.jp/css-animation">
+       
+        <!-- link -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+
+        <!-- font -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- script -->
+        <script src="{{ asset('/js/stripe.js') }}"></script>
+
+    </head>
+
+    <body>
+        <div id="mask" class="mask hidden">
+        </div>     
+        <header>
+            <div class="header-left">
+                <img class="logo-black" src="/Users/rei/Myprofile/pablic/img/ray-logo-black.png" alt="ray-logo">
+                <img class="logo-white" src="/Users/rei/Myprofile/pablic/img/ray-logo.png" alt="ray-logo">
+            </div>
+            <div class="header-right">
+                <div class="menu" onclick="openMenu('header-menu')">
+                    <img src="/Users/rei/Myprofile/pablic/img/menu-icon.png" alt="menu icon">
+                </div>
+                <ul id="header-menu" class="header-menu hidden">
+                    <li class="close-btn">
+                        <a href="">
+                            <img src="/Users/rei/Myprofile/pablic/img/close-icon.png" alt="close icon">
+                        </a>
+                    </li>
+                    <li>
+                      <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/works.html">WORKS</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/service.html">SERVICE</a>
+                  </li>
+                  <li>
+                      <a href="/Users/rei/Myprofile/views/contact.html">CONTACT</a>
+                  </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+          <div class="container">
+            <div class="first-section">
+              <div class="section-title">
+                  <h2>WORKS</h2>
+                  <hr>
+              </div>
+            </div>
+
+            <div class="text">
+              <p>こちらでは今までに制作してきた作品を掲載させていただきます。
+                お客様のご都合により一部公開できない作品もございますので予めご了承ください。
+              </p>
+            </div>
+
+            <div class="section">
+              <div class="item-title">
+                <h2>Web Development</h2>
+                <hr>
+                <h3>Web制作</h3>
+              </div>
+  
+              <div class="item">
+                <img src="/Users/rei/Myprofile/pablic/img/medistu.png" alt="メディスタオンライン">
+                <div class="text">
+                  <p>オンラインで学習に関する質問ができる学習支援サイト 
+                    「メディスタオンライン」  <br>
+                    URL ：　https://www.medistu-online.com</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="/Users/rei/Myprofile/pablic/img/top-backgraound.jpg" alt="ポートフォリオサイト">
+                <div class="text">
+                  <p>ポートフォリオサイト  <br>
+                    URL ：　https://www.medistu-online.com</p>
+                </div>
+              </div>
+  
+            </div>
+
+            <div class="section">
+              <div class="item-title">
+                <h2>Movies</h2>
+                <hr>
+                <h3>動画</h3>
+              </div>
+  
+              <div class="item">
+                <iframe width="339px" height="191px" src="https://www.youtube.com/embed/3SG_R7YDNSc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="text">
+                  <p>オンラインで学習に関する質問ができる学習支援サイト 
+                    「メディスタオンライン」  <br>
+                    URL ：　https://www.medistu-online.com</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <iframe width="339px" height="191px" src="https://www.youtube.com/embed/A9vJSyK8hz8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="text">
+                  <p>オンラインで学習に関する質問ができる学習支援サイト 
+                    「メディスタオンライン」  <br>
+                    URL ：　https://www.medistu-online.com</p>
+                </div>
+              </div>
+  
+  
+            </div>
+
+            <div class="section">
+              <div class="item-title">
+                <h2>Logo Designt</h2>
+                <hr>
+                <h3>ロゴデザイン</h3>
+              </div>
+
+              <div class="item">
+                <img src="/Users/rei/Myprofile/pablic/img/logo.png" alt="logo">
+              </div>
+
+              <div id="readmore">
+                <div class="readmore">
+                    <a href="">
+                        <p>READ MORE</p>
+                    </a>
+                </div>
+              </div>
+  
+            </div>
+
+            <div class="section">
+              <div class="item-title">
+                <h2>Photo</h2>
+                <hr>
+                <h3>写真</h3>
+              </div>
+
+              <div class="item">
+                <img src="/Users/rei/Myprofile/pablic/img/photo.png" alt="">
+              </div>
+
+              <div id="readmore">
+                <div class="readmore">
+                    <a href="">
+                        <p>READ MORE</p>
+                    </a>
+                </div>
+              </div>
+  
+            </div>
+
+          </div>
+
+        </main>
+
+        <footer>
+            <div class="foot-first-content">
+                <div class="footer-left">
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">WORKS</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-right">
+                    <a href="">
+                        <img src="" alt="ray logo">
+                    </a>
+                    <div class="sns-icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-second-content">
+                <p>Copyright©︎ 2020 RAY All Rights Reserved.</p>
+            </div>
+        </footer> 
+    </body>
+
+    <script>
+
+        function openMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.remove("hidden");
+                mask.classList.remove("hidden");
+                
+            }
+
+        function closeMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.add("hidden");
+                mask.classList.add("hidden");
+            }
+        
+    </script>
+</html>

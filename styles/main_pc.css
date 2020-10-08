@@ -1,0 +1,133 @@
+/*   共通スタイリング
+======================   */
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    text-decoration:none
+}
+
+h1, h2, h3, h4, h5 {
+    color: #fff;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: lighter;
+}
+
+/*   header style 
+-------------------- */
+header {
+    background-color: #fff;
+    height: 66px;
+    width: 100%;
+    display: flex;
+    flex-diretion: row;
+    padding: 0;
+    margin: 0;
+}
+
+.header-left {
+    width: 71px;
+    height: 34px;
+    padding: 17px 37px 15px 30px;
+}
+
+.header-left img {
+    width: 71px;
+}
+
+.header-right {
+    float: right;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.header-right img {
+    display: none;
+}
+
+.header-menu {
+    display: inline-flex;
+    margin: 0;
+}
+
+.header-menu li {
+    padding: 26px 35px 15px 35px;
+    list-style: none;
+}
+
+.header-menu a {
+    color: black;
+    font-family: ヒラギノ角ゴシック;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+/*   footer style 
+-------------------- */
+
+
+
+/*   Read more style 
+-------------------- */
+.readmore p {
+    font-size: 20px;
+    font-family: ヒラギノ角ゴシック;
+    font-weight: lighter;
+    margin: 4px auto;
+}
+
+.readmore {
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    background: -webkit-linear-gradient(180deg,                           #000000,
+    #000,
+    #868686,
+    #3d3d3d);
+    background: -webkit-linear-gradient(right,                             #000000,
+    #ffffff,
+    #868686,
+    #3d3d3d);
+    background: linear-gradient(270deg,
+    #fff,
+    #fff,
+    #000,
+    #000);
+    background-position: 1% 50%;
+    background-size: 300% 300%;
+    border: none;
+    border: solid 1px #fff;
+}
+
+/* マウスオーバー時 */
+.readmore:hover {
+    background-position: 99% 50%;
+    color: #000;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.readmore p:hover {
+    color: #000;
+}

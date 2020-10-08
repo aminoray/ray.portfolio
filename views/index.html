@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ray official</title>
+
+        <!-- style -->
+        <link href="/Users/rei/Myprofile/styles/main_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/main_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/main_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link href="/Users/rei/Myprofile/styles/index_mobile.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="/Users/rei/Myprofile/styles/index_tablet.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:1024px)">
+        <link href="/Users/rei/Myprofile/styles/index_pc.css" rel="stylesheet" media="screen and (min-width:1024px)">
+
+        <link rel="canonical" href="https://lopan.jp/css-animation">
+       
+        <!-- link -->
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+
+        <!-- font -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- script -->
+        <script src="{{ asset('/js/stripe.js') }}"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+
+    </head>
+
+    <body>
+        <div id="mask" class="mask hidden">
+        </div>     
+        <header>
+            <div class="header-left">
+                <img class="logo-black" src="/Users/rei/Myprofile/pablic/img/ray-logo-black.png" alt="ray-logo">
+                <img class="logo-white" src="/Users/rei/Myprofile/pablic/img/ray-logo.png" alt="ray-logo">
+            </div>
+            <div class="header-right">
+                <div class="menu" onclick="openMenu('header-menu')">
+                    <img src="/Users/rei/Myprofile/pablic/img/menu-icon.png" alt="menu icon">
+                </div>
+                <ul id="header-menu" class="header-menu hidden">
+                    <li class="close-btn">
+                        <a href="">
+                            <img src="/Users/rei/Myprofile/pablic/img/close-icon.png" alt="close icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/works.html">WORKS</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/service.html">SERVICE</a>
+                    </li>
+                    <li>
+                        <a href="/Users/rei/Myprofile/views/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="bgimg-slider first-section">
+                </div>
+                <div class="second-section">
+                    <div class="first-discription">
+                        <p>Hey! I’m Ray, I’m a engineer and designer, cinematographer living in Japan. 
+                            I specialize in UI/UX design & branding with a keen interest in typography. <br>
+                            Feel free to check this site. If you’d like to chat contact me.
+                        </p>
+                    </div>
+                    <div class="second-discription">
+                        <div class="image">
+                            <img src="/Users/rei/Myprofile/pablic/img/DSC01004 2.jpg" alt="my photo">
+                        </div>
+                        <div class="discription">
+                            <h2>Rei Takeda</h2>
+                            <h3>Engineer ／ Designer</h3>
+                            <div class="sns-icons">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-youtube"></i>
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                            </div>
+                            <div id="readmore">
+                                <div class="readmore">
+                                    <a href="">
+                                        <p>READ MORE</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="third-section">
+                    <a href="">
+                        <h2>WORKS</h2>
+                    </a>
+                    <div class="slideshow">
+                        <input type="radio" name="slideshow" id="switch1" checked>
+                        <input type="radio" name="slideshow" id="switch2">
+                        <input type="radio" name="slideshow" id="switch3">
+                        <input type="radio" name="slideshow" id="switch4">
+                        <input type="radio" name="slideshow" id="switch5">
+                        <div class="slideContents">
+                            <section id="slide1">
+                                <img src="/Users/rei/Myprofile/pablic/img/felix-wegerer-D5NmSl8IQig-unsplash.jpg">
+                            </section>
+                            <section id="slide2">
+                                <img src="/Users/rei/Myprofile/pablic/img/felix-wegerer-D5NmSl8IQig-unsplash.jpg">
+                            </section>
+                            <section id="slide3">
+                                <img src="/Users/rei/Myprofile/pablic/img/felix-wegerer-D5NmSl8IQig-unsplash.jpg">
+                            </section>
+                            <section id="slide4">
+                                <img src="/Users/rei/Myprofile/pablic/img/felix-wegerer-D5NmSl8IQig-unsplash.jpg">
+                            </section>
+                            <section id="slide5">
+                                <img src="/Users/rei/Myprofile/pablic/img/felix-wegerer-D5NmSl8IQig-unsplash.jpg">
+                            </section>
+                        </div>
+                        <p class="arrow prev">
+                            <i class="ico"></i>
+                            <label for="switch1"></label>
+                            <label for="switch2"></label>
+                            <label for="switch3"></label>
+                            <label for="switch4"></label>
+                            <label for="switch5"></label>
+                        </p>
+                        <p class="arrow next">
+                            <i class="ico"></i>
+                            <label for="switch1"></label>
+                            <label for="switch2"></label>
+                            <label for="switch3"></label>
+                            <label for="switch4"></label>
+                            <label for="switch5"></label>
+                        </p>
+                    </div>
+                </div>
+                <div class="fourth-section">
+                    <h2>SERVICE</h2>
+                    <div class="contents">
+                        <div class="item" id="item-1">
+                            <div class="title">
+                                <h3>DEVELOP</h3>
+                                <hr>
+                            </div>
+                            <a href="">
+                                <img src="/Users/rei/Myprofile/pablic/img/karl-pawlowicz-QUHuwyNgSA0-unsplash.JPG" alt="pc img">
+                            </a>
+                        </div>
+                        <div class="item" id="item-2">
+                            <div class="title">
+                                <h3>DESIGN</h3>
+                                <hr>
+                            </div>
+                            <a href="">
+                                <img src="/Users/rei/Myprofile/pablic/img/kerde-severin-TXotsqdpX2g-unsplash.JPG" alt="ipad img">
+                            </a>
+                        </div>
+                        <div class="item" id="item-3">
+                            <div class="title">
+                                <h3>MOVIE</h3>
+                                <hr>
+                            </div>
+                            <a href="">
+                                <img src="/Users/rei/Myprofile/pablic/img/william-bayreuther-hfk6xOjQlFk-unsplash.JPG" alt="camera img">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="readmore">
+                        <div class="readmore">
+                            <a href="">
+                                <p>READ MORE</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="foot-first-content">
+                <div class="footer-left">
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/index.html">TOP</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/views/about.html">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">WORKS</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="/Users/rei/Myprofile/styles/index.css">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-right">
+                    <a href="">
+                        <img src="" alt="ray logo">
+                    </a>
+                    <div class="sns-icons">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-second-content">
+                <p>Copyright©︎ 2020 RAY All Rights Reserved.</p>
+            </div>
+        </footer> 
+    </body>
+
+    <script>
+
+        function openMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.remove("hidden");
+                mask.classList.remove("hidden");
+                
+            }
+
+        function closeMenu(id) {
+            var element = document.getElementById(id);
+                element.classList.add("hidden");
+                mask.classList.add("hidden");
+            }
+        
+    </script>
+
+    <!-- bgswitcher-script -->
+    <script src="/Users/rei/Myprofile/js/jquery.bgswitcher.js"></script>
+
+    <script>
+    jQuery(function($) {
+        $('.bgimg-slider').bgSwitcher({
+            images: ['/Users/rei/Myprofile/pablic/img/top-background-mobile.png',
+                    '/Users/rei/Myprofile/pablic/img/IMG_2869.jpg',
+                    '/Users/rei/Myprofile/pablic/img/IMG_6506.jpg'],
+            effect: "fade",
+            duration: 2000,
+            easing: "swing"
+            });
+        });
+    </script>
+
+    <!-- bgswitcher-script-end -->
+</html>
